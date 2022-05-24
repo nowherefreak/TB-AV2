@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TB-AV2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .enviar {
+            background-color: #fd5234;
+            height: 40px;
+            width: 200px;
+            font-weight: bold;
+            border: 3px solid;
+            border-color: #5c1903;
+            color: #ffffff;
+        }
+
+        input:hover,
+        textarea:hover,
+        input:focus,
+        textarea:focus {
+            border-color: #5c1903;
+            box-shadow: 0px 3px 0px #fd5234;
+            background-color: #fff;
+            color: black;
+            font-weight: bold;
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .space {
+            width: 40px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Início</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Introdução</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">SCRUM</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">LEAN</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CRUD</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">KANBAM</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">Trabalho AV2</h1>
+        <p class="w3-xlarge">Feito por Thiago, Rickson, Gabriel e Renato</p>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Introdução</h1>
+                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+                <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-twothird">
+                <h1>SCRUM</h1>
+                <h5 class="w3-padding-32">Essa metodologia permite que as empresas criem soluções inovadores para o
+                    mercado, fazendo com que haja um aumento da competitividade. Esse método existe devido à necessidade
+                    de oferecer agilidade em projetos de alta complexidade e urgência de entrega. Na prática, o Scrum
+                    funciona criando ciclos, conhecidos como sprints, que são os intervalos de tempo para o
+                    desenvolvimento de cada etapa. Ao final de cada etapa, existe uma revisão do produto para validação.
+                    É só depois disso que a equipe inicia o próximo sprint.</h5>
+
+                <p class="w3-text-grey">Exemplo:</p>
+            </div>
+        </div>
+        <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/scrumorg-scrum-framework-3000.png"
+            alt="scrum" ; height="400px" ; width="800px" class="center"></img>
+    </div>
+    <!-- 3-->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>LEAN</h1>
+                <h5 class="w3-padding-32">A Metodologia Lean utiliza alguns princípios e técnicas operacionais buscando
+                    sempre reduzir o desperdício de recursos, a melhoria da qualidade e a maximização do valor entregue
+                    ao cliente. As ações se baseiam principalmente na redução de 7 desperdícios: Falta de Qualidade,
+                    Espera, Estoques, Movimentação, Transporte, Processos Desnecessários e Superprodução.</h5>
+
+                <p class="w3-text-grey">Exemplo:</p>
+            </div>
+            <img src="https://cdn2.hubspot.net/hubfs/455690/Blog/infografico-metodologia.png"
+            alt="lean" ; height="400px" ; width="600px" class="center"></img>
+        </div>
+    </div>
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-twothird">
+                <h1>KANBAM</h1>
+                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+                <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4-->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>CRUD</h1>
+                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+                <div> 
+                    <input type="button" class="enviar" onclick="cadastrarCliente();" value="Cadastrar Cliente" />
+                    <input type="button" class="enviar" onclick="pesquisarCliente();" value="Pesquisar Cliente" />
+                    <input type="button" class="enviar" onclick="alterarCliente();" value="Alterar Cliente" />
+                    <input type="button" class="enviar" onclick="deletarCliente();" value="Deletar Cliente" />
+                    <input type="button" class="enviar" onclick="listaCliente();" value="Mostrar Clientes" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+        <div class="w3-xlarge w3-padding-32">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        class cliente {
+            constructor(nome, numero, id) {
+                this.Id = id
+                this.Nome = nome
+                this.Numero = numero
+            }
+        }
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        let cadastro = []
+        function cadastrarCliente() {
+            const nome = prompt('Digite o nome do cliente.')
+            const numero = prompt('Digite o telefone do cliente.')
+            let getId = Date.now()
+            let transfotmId = getId.toString()
+            let id = transfotmId.slice(transfotmId.length - 6)
+
+            const cliente1 = new cliente(nome, numero, id)
+            if (nome != "") {
+                alert('O cliente: ' + nome + ' foi cadastrado com sucesso!');
+                cadastro.push(cliente1);
+            } else {
+                alert('Houve algo de errado!')
+            }
+        }
+
+        function pesquisarCliente() {
+            let nome = prompt('Digite o nome do cliente que você quer procurar.')
+            let procurar = cadastro.find(cliente => cliente.Nome === nome)
+            if (procurar != undefined || null) {
+                alert(`Os dados do cliente são: \nNome: ${procurar.Nome} \nTelefone: ${procurar.Numero}`)
+            } else {
+                alert("Esse cliente não está cadastrado!!")
+            }
+        }
+        function alterarCliente() {
+            const nome = prompt('Digite o nome do cliente que você quer alterar.')
+            const procurar = cadastro.find(cliente => cliente.Nome === nome)
+            if (procurar != undefined) {
+                const nomeAtt = prompt('Digite o novo nome do cliente.')
+                const numeroAtt = prompt('Digite o novo telefone do cliente.')
+                for (var i in cadastro) {
+                    if (cadastro[i].Nome == nome) {
+                        cadastro[i].Nome = nomeAtt;
+                        cadastro[i].Numero = numeroAtt;
+                        alert('Os dados do cliente: ' + nomeAtt + ' foram atualizados com sucesso');
+                        break;
+                    }
+                }
+            } else {
+                alert("Esse cliente não está cadastrado!!")
+            }
+        }
+        function deletarCliente() {
+            const deletarID = prompt(`Digite o ID do cliente que você quer deletar. /n ${JSON.stringify(cadastro).replace(/"([^"]+)":/g, '$1:')}`)
+            cadastro = cadastro.filter(cliente => cliente.Id != deletarID);
+            alert('O cliente foi deletado com sucesso');
+        }
+        function listaCliente() {
+            alert(JSON.stringify(cadastro).replace(/"([^"]+)":/g, '$1:'))
+        }
+
+    </script>
+
+</body>
+
+</html>
