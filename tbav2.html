@@ -69,11 +69,12 @@
                 href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
                     class="fa fa-bars"></i></a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Início</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Introdução</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">SCRUM</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">LEAN</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CRUD</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">KANBAM</a>
+            <a href="#introducao"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Introdução</a>
+            <a href="#scrum" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">SCRUM</a>
+            <a href="#lean" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">LEAN</a>
+            <a href="#crud" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">CRUD</a>
+            <a href="#kanban" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">KANBAM</a>
         </div>
 
         <!-- Navbar on small screens -->
@@ -92,27 +93,24 @@
     </header>
 
     <!-- First Grid -->
-    <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-row-padding w3-padding-64 w3-container" id="introducao">
         <div class="w3-content">
             <div class="w3-twothird">
                 <h1>Introdução</h1>
-                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-                <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h5 class="w3-padding-32">As pessoas pensam que o Scrum e a agilidade são a mesma coisa porque o Scrum é
+                    centrado na melhoria contínua,
+                    que é o princípio fundamental da agilidade. No entanto, o Scrum é uma estrutura para concluir
+                    tarefas, enquanto a agilidade é uma forma de pensar.
+                    A estrutura do Scrum é heurística; ela é baseada no aprendizado contínuo e na adaptação aos fatores
+                    variáveis. O Scrum reconhece que a equipe não sabe tudo no
+                    início de um projeto e que evoluirá de acordo com a experiência. Filosofia Lean é uma metodologia de
+                    gestão que otimiza custos e reduz o tempo e os desperdícios
+                    de uma empresa. Baseada no Lean Thinking, um framework mental que prioriza a utilização dos recursos
+                    de maneira eficiente e orientada à potencialização dos resultados.</h5>
             </div>
         </div>
     </div>
-
-    <!-- Second Grid -->
-    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="scrum">
         <div class="w3-content">
 
             <div class="w3-twothird">
@@ -123,59 +121,76 @@
                     funciona criando ciclos, conhecidos como sprints, que são os intervalos de tempo para o
                     desenvolvimento de cada etapa. Ao final de cada etapa, existe uma revisão do produto para validação.
                     É só depois disso que a equipe inicia o próximo sprint.</h5>
-
-                <p class="w3-text-grey">Exemplo:</p>
+                <h2>Artefatos do Scrum</h2>
+                <p class="w3-text-grey">Existem três artefatos do Scrum. Um artefato é algo que produzimos, como uma
+                    ferramenta para resolver problemas. No Scrum, os três artefatos são um backlog do produto, um
+                    backlog do sprint e um incremento com aquilo que você define como "concluído".</p>
+                <p class="w3-text-grey"> • O backlog do produto é a principal lista do trabalho que precisa ser feita e
+                    é mantida pelo proprietário do produto ou gerente de produtos. É uma lista dinâmica de recursos,
+                    requisitos, aprimoramentos e correções que atua como a entrada para o backlog do sprint.
+                    Basicamente, ela é a "Lista de afazeres" da equipe. O backlog do produto é sempre revisto,
+                    repriorizado e mantido pelo proprietário do produto porque, conforme aprimoramos o conhecimento ou o
+                    mercado muda, os itens podem não ser mais relevantes ou os problemas podem ser resolvidos de outras
+                    formas.</p>
+                <p class="w3-text-grey"> • O backlog do sprint é a lista de itens, histórias de usuários ou correções de
+                    bugs selecionada pela equipes de desenvolvimento para a implementação no ciclo atual de sprint.
+                    Antes de cada sprint, durante a reunião de planejamento de sprint (que abordaremos posteriormente
+                    neste artigo), a equipe escolhe quais itens funcionarão para o sprint a partir do backlog do
+                    produto. Um backlog do sprint pode ser flexível e se desenvolver durante um sprint. No entanto, a
+                    meta fundamental do sprint, ou seja, o que a equipe deseja alcançar com o sprint atual, não pode ser
+                    comprometida.</p>
+                <p class="w3-text-grey"> • Incremento (ou meta de sprint) é o produto final utilizável, proveniente de
+                    um sprint. Na Atlassian, nós normalmente apresentamos o "incremento" durante a demonstração de final
+                    de sprint, na qual a equipe exibe o que foi concluído no sprint. Talvez você não escute a palavra
+                    "incremento" por aí, visto que ela costuma ser citada como a definição de "Concluído" dada pela
+                    equipe, como um marco, a meta de sprint ou, até mesmo, uma versão completa.</p>
             </div>
         </div>
         <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/scrumorg-scrum-framework-3000.png"
             alt="scrum" ; height="400px" ; width="800px" class="center"></img>
     </div>
-    <!-- 3-->
-    <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-row-padding w3-padding-64 w3-container" id="lean">
         <div class="w3-content">
             <div class="w3-twothird">
                 <h1>LEAN</h1>
-                <h5 class="w3-padding-32">A Metodologia Lean utiliza alguns princípios e técnicas operacionais buscando
-                    sempre reduzir o desperdício de recursos, a melhoria da qualidade e a maximização do valor entregue
-                    ao cliente. As ações se baseiam principalmente na redução de 7 desperdícios: Falta de Qualidade,
-                    Espera, Estoques, Movimentação, Transporte, Processos Desnecessários e Superprodução.</h5>
-
-                <p class="w3-text-grey">Exemplo:</p>
+                <h5 class="w3-padding-32">Filosofia Lean é uma metodologia de gestão que otimiza custos e reduz o tempo
+                    e os desperdícios de uma empresa. Baseada no Lean Thinking, um framework mental que prioriza a
+                    utilização dos recursos de maneira eficiente e orientada à potencialização dos resultados e ao
+                    envolvimento das equipes em busca da melhoria contínua.</h5>
+                <p class="w3-text-grey">O Lean parte do princípio de que toda iniciativa precisa ser baseada no
+                    consumidor final. O propósito é criar valor para este público. Para isso, é preciso que as
+                    lideranças, CEOs, especialistas e os times da sua empresa, de variados setores, estejam por dentro
+                    dessa sistemática de gestão. A filosofia Lean surgiu no Japão. Seu criador foi Taiichi Ohno,
+                    engenheiro e chefe de produção da Toyota. Ohno liderou o desenvolvimento de um sistema de gestão, ao
+                    longo das décadas de 1950 e 1960, que busca a mais alta qualidade no menor prazo e com o menor custo
+                    por meio da eliminação do desperdício, chamado Toyota Production System (TPS) - em português,
+                    Sistema Toyota de Produção.</p>
             </div>
-            <img src="https://cdn2.hubspot.net/hubfs/455690/Blog/infografico-metodologia.png"
-            alt="lean" ; height="400px" ; width="600px" class="center"></img>
-        </div>
-    </div>
-    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-        <div class="w3-content">
-
+            <img src="https://cdn2.hubspot.net/hubfs/455690/Blog/infografico-metodologia.png" alt="lean" ;
+                height="400px" ; width="600px" class="center"></img>
+            <h3>Os cinco princípios da gestão Lean:</h3>
             <div class="w3-twothird">
-                <h1>KANBAM</h1>
-                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-                <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="w3-text=grey">Valor: definir o que é valor sob a perspectiva do cliente. Essa é a premissa
+                    básica para começar qualquer mudança. É preciso saber o que seu público quer, pois é ele quem define
+                    o valor a satisfazer.</p>
+                <p class="w3-text=grey">Fluxo de valor: identificar as etapas que agregam valor ao produto/serviço e
+                    redefinir os processos, eliminando o que for desperdício.</p>
+                <p class="w3-text=grey">Fluxo Contínuo: depois de identificar os pontos que criam valor ao produto, é
+                    preciso estabelecer um fluxo contínuo (sem interrupções) para realizar as atividades. A ideia é
+                    fazer fluir, ou seja, atender as necessidades do cliente de forma rápida, reduzindo etapas,
+                    esforços, tempo e eliminando custos desnecessários.</p>
+                <p class="w3-text=grey">Produção Puxada: fazer apenas aquilo que o cliente solicitar. O objetivo é
+                    tentar eliminar qualquer excesso ou desperdício. A produção puxada é um dos três </p>
+                <p class="w3-text=grey">Perfeição: a busca pela melhoria contínua (kaizen) de todos os processos,
+                    pessoas e produtos para fornecer puro valor, sem nenhum desperdício.</p>
             </div>
         </div>
     </div>
-
-    <!-- 4-->
-    <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="crud">
         <div class="w3-content">
             <div class="w3-twothird">
                 <h1>CRUD</h1>
-                <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-
-                <div> 
+                <div class="space">
                     <input type="button" class="enviar" onclick="cadastrarCliente();" value="Cadastrar Cliente" />
                     <input type="button" class="enviar" onclick="pesquisarCliente();" value="Pesquisar Cliente" />
                     <input type="button" class="enviar" onclick="alterarCliente();" value="Alterar Cliente" />
@@ -185,6 +200,18 @@
             </div>
         </div>
     </div>
+
+    <div class="w3-row-padding w3-padding-64 w3-container" id="kanban">
+        <div class="w3-content">
+
+            <div class="w3-twothird">
+                <h1>KANBAN</h1>
+                <img src="./kanban1.PNG" height="200px" ; width="1000px" class="center"></img>
+                <img src="./kanban2.PNG" height="200px" ; width="1000px" class="center"></img>
+            </div>
+        </div>
+    </div>
+
 
 
 
